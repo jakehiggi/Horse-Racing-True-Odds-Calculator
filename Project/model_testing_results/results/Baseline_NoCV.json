@@ -1,0 +1,19 @@
+{
+    "features_used": [
+        "Runners",
+        "MarketOdds_PreviousRun",
+        "Speed_PreviousRun",
+        "MarketOdds_2ndPreviousRun",
+        "Speed_2ndPreviousRun",
+        "TrainerRating",
+        "JockeyRating",
+        "Prize"
+    ],
+    "log_loss": 0.3248530703746336,
+    "brier_score": 0.09131410304137588,
+    "market_log_loss": 0.29337220629495997,
+    "market_brier_score": 0.08490188448159673,
+    "market_top": "30.15%",
+    "model_top_pick_accuracy": "18.16%",
+    "best_params": null
+}

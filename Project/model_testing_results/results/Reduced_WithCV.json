@@ -1,0 +1,36 @@
+{
+    "features_used": [
+        "SpeedRank",
+        "OddsRatio_LTO",
+        "TrainerRel",
+        "Runners",
+        "MarketOdds_PreviousRun",
+        "MarketOdds_2ndPreviousRun",
+        "TrainerRating"
+    ],
+    "feature_importances": {
+        "Runners": 0.008162,
+        "SpeedRank": 0.005196,
+        "MarketOdds_PreviousRun": 0.00303,
+        "TrainerRel": 0.00146,
+        "MarketOdds_2ndPreviousRun": 0.001239,
+        "OddsRatio_LTO": 0.001046,
+        "TrainerRating": 0.000371
+    },
+    "log_loss": 0.31663751948924873,
+    "brier_score": 0.08984158058774948,
+    "market_log_loss": 0.29337220629495997,
+    "market_brier_score": 0.08490188448159673,
+    "market_top": "30.15%",
+    "model_top_pick_accuracy": "21.44%",
+    "best_params": {
+        "classifier__subsample": 0.6,
+        "classifier__reg_lambda": 5,
+        "classifier__reg_alpha": 0.1,
+        "classifier__n_estimators": 300,
+        "classifier__max_depth": 3,
+        "classifier__learning_rate": 0.01,
+        "classifier__gamma": 0,
+        "classifier__colsample_bytree": 0.8
+    }
+}

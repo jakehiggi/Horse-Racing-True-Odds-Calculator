@@ -1,0 +1,28 @@
+{
+    "features_used": [
+        "Runners",
+        "MarketOdds_PreviousRun",
+        "Speed_PreviousRun",
+        "MarketOdds_2ndPreviousRun",
+        "Speed_2ndPreviousRun",
+        "TrainerRating",
+        "JockeyRating",
+        "Prize"
+    ],
+    "log_loss": 0.3186592666005937,
+    "brier_score": 0.09023774396860709,
+    "market_log_loss": 0.29337220629495997,
+    "market_brier_score": 0.08490188448159673,
+    "market_top": "30.15%",
+    "model_top_pick_accuracy": "21.82%",
+    "best_params": {
+        "classifier__subsample": 0.8,
+        "classifier__reg_lambda": 0.1,
+        "classifier__reg_alpha": 0,
+        "classifier__n_estimators": 500,
+        "classifier__max_depth": 3,
+        "classifier__learning_rate": 0.01,
+        "classifier__gamma": 0.4,
+        "classifier__colsample_bytree": 1.0
+    }
+}

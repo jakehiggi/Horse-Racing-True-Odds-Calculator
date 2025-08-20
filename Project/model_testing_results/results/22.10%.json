@@ -1,0 +1,52 @@
+{
+    "features_used": [
+        "relative_Age",
+        "relative_Speed_LTO",
+        "is_top_jockey",
+        "trainer_jockey_strength",
+        "prize_per_runner",
+        "avg_speed_last2",
+        "days_since_race_bin",
+        "delta_market_odds",
+        "pct_change_market_odds",
+        "delta_speed",
+        "adjusted_speed_trend",
+        "Runners",
+        "MarketOdds_PreviousRun",
+        "MarketOdds_2ndPreviousRun",
+        "TrainerRating"
+    ],
+    "feature_importances": {
+        "Runners": 0.008537,
+        "relative_Speed_LTO": 0.0055,
+        "MarketOdds_PreviousRun": 0.004587,
+        "trainer_jockey_strength": 0.001392,
+        "MarketOdds_2ndPreviousRun": 0.001164,
+        "relative_Age": 0.001103,
+        "adjusted_speed_trend": 0.000694,
+        "days_since_race_bin": 0.000415,
+        "prize_per_runner": 0.000186,
+        "avg_speed_last2": 7e-05,
+        "pct_change_market_odds": -6.3e-05,
+        "TrainerRating": 5.6e-05,
+        "is_top_jockey": -3.9e-05,
+        "delta_speed": 1.9e-05,
+        "delta_market_odds": -1.3e-05
+    },
+    "log_loss": 0.3162573133004741,
+    "brier_score": 0.0897107203167928,
+    "market_log_loss": 0.29337220629495997,
+    "market_brier_score": 0.08490188448159673,
+    "market_top": "30.15%",
+    "model_top_pick_accuracy": "22.10%",
+    "best_params": {
+        "classifier__subsample": 0.8,
+        "classifier__reg_lambda": 0.1,
+        "classifier__reg_alpha": 0,
+        "classifier__n_estimators": 500,
+        "classifier__max_depth": 3,
+        "classifier__learning_rate": 0.01,
+        "classifier__gamma": 0.4,
+        "classifier__colsample_bytree": 1.0
+    }
+}

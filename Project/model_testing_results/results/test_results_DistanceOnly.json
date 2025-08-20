@@ -1,0 +1,21 @@
+{
+    "features_used": [
+        "Distance"
+    ],
+    "log_loss": 0.33352042384280356,
+    "brier_score": 0.09308493628841095,
+    "market_log_loss": 0.29337220629495997,
+    "market_brier_score": 0.08490188448159673,
+    "market_top": "30.15%",
+    "model_top_pick_accuracy": "13.76%",
+    "best_params": {
+        "classifier__subsample": 0.6,
+        "classifier__reg_lambda": 0.1,
+        "classifier__reg_alpha": 1,
+        "classifier__n_estimators": 100,
+        "classifier__max_depth": 3,
+        "classifier__learning_rate": 0.01,
+        "classifier__gamma": 0.1,
+        "classifier__colsample_bytree": 0.6
+    }
+}
